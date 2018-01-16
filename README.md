@@ -8,20 +8,6 @@ The goal of this project is to predict the bike rental count hourly or daily bas
 
 This dataset has the number of riders for each hour of each day from January 1 2011 to December 31 2012. The number of riders is split between casual and registered, summed up in the `cnt` column. You can see the first few rows of the data below.
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -182,20 +168,20 @@ Additionally, below you can see a plot showing the number of bike riders over th
 
 
 
-## Example Predictions using MLP:
-### Architecture:
+##  Sample Predictions Results Using MLP:
+#### Architecture:
 2 hidden layers, 12 Neurons each.
-### Hyper Parameters:
+#### Hyper Parameters:
 hidden_nodes = 12
 output_nodes = 1
 iterations = 5000
 learning_rate = 0.5
 
-
+#### Training:
 
 ![png](output_5_0.png)
 
-
+#### Prediction:
 
 ![png](output_7_1.png)
 
