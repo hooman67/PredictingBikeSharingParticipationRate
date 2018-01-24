@@ -28,7 +28,7 @@ class TestMethods(unittest.TestCase):
         self.assertTrue(isinstance(rides, pd.DataFrame))
     
     ##########
-    # Unit tests for network functionality
+    # Unit tests for network functionality #
     ##########
 
     def test_activation(self):
